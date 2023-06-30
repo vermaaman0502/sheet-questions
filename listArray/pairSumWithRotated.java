@@ -36,7 +36,7 @@ public class pairSumWithRotated {
         list.add(8);
         list.add(9);
         list.add(10);
-        int target =166;
+        int target =16;
         System.out.println(pairSum2(list, target));
         
     }

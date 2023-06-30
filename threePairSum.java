@@ -5,7 +5,7 @@ public class threePairSum {
         for(int i=0; i<arr.length-2; i++) {
             int L = i+1,   R =arr.length-1;
             while(L<R) {
-                if(arr[i] + arr[L] +arr[R] ==77) {
+                if(arr[i] + arr[L] +arr[R] ==0) {
                     return true;
                 } else if(arr[i] + arr[L] +arr[R] <0) {
                     L++;
